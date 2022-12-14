@@ -1,3 +1,5 @@
 import { writable } from 'svelte/store';
 
-export const store = writable({});
+const store = writable({ hello: 'store' });
+
+export { store };
