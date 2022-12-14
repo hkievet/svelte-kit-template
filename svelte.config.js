@@ -8,8 +8,10 @@ const config = {
 	preprocess: [preprocess({ postcss: true, }),],
 	kit: {
 		adapter: adapter()
+	},
+	files: {
+		lib: 'src/lib'
 	}
-
 };
 
 export default config;
